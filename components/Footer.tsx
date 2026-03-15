@@ -50,7 +50,7 @@ export default function Footer(){
 
 
       <div className="footer-bottom">
-        © 2026 Studio Lens. All rights reserved.
+        © 2026 Paras Studio. All rights reserved.
       </div>
 
     </footer>

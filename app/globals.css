@@ -232,6 +232,8 @@ body {
   padding: 25px;
 }
 
+
+
 /* CTA */
 .cta {
   padding: 90px 0;
@@ -581,7 +583,28 @@ textarea {
 }
 
 
+.slick-dots {
+  bottom: -45px !important;
+}
 
+.slick-track {
+  display: flex !important;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
+  justify-content: center;
+}
+
+.slick-slide > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px; /* Spacing fix */
+}
 
 
 /* 12. Responsive Breakpoints */
@@ -608,6 +631,40 @@ textarea {
     height: auto;
     padding: 20px 0;
     gap: 15px;
+  }
+
+  
+  
+  .testimonial-slider-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  .slick-list {
+    padding: 0 20px !important; /* Show a peek of next card */
+  }
+
+
+  
+   .slider-container {
+    padding: 0 10px;
+  }
+  
+  .slick-list {
+    margin: 0 -10px; /* Negative margin for full-width */
+  }
+  
+  .slick-slide > div {
+    padding: 0 10px; /* Card spacing */
+  }
+
+  .testimonial-slider-container {
+    padding-bottom: 60px; /* Dots ke liye extra space */
+  }
+
+  /* Card ki height adjust karein */
+  .bg-white.p-8 {
+    padding: 1.5rem !important; /* Mobile par padding thodi kam */
   }
 
   .nav-links {

@@ -32,7 +32,7 @@ export default function Testimonials() {
         </h2>
 
         {/* Carousel Container */}
-        <div className="testimonial-slider-container mt-16 px-10">
+        <div className=" mt-16 px-10">
           <Carousel>
             {testimonials.map((item, index) => (
               <div key={index} className="px-4 py-4">
